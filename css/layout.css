@@ -683,54 +683,53 @@ body {
     margin-right: 5px;
   }
 
-.section1 {}
+.section1__title {
+  margin: 58px 0px 8px 0px;
+}
 
-  .section1__title {
-    margin: 58px 0px 8px 0px;
+.section1__print {
+  float: right;
+  margin-top: -20px;
+}
+
+  .section1__print__icon {
+    float: left;
+    margin-right: 3px;
+    margin-top: 2px;
   }
 
-  .section1__print {
+  .section1__print__text {
+    position: relative;
+    display: inline-block;
+  }
+
+.section1__image {
+  margin-top: 27px;
+}
+
+.section1__p {
+  margin-top: 30px;
+}
+
+.section1__list {
+  margin: 30px 0px 30px 0px;
+  width: 899px;
+  height: 305px;
+}
+
+  .section1__list__list1 {
+    float: left;
+    margin: 38px 0px 0px 80px;
+  }
+
+  .section1__list__list2 {
     float: right;
-    margin-top: -20px;
+    margin: 38px 50px 0px 0px;
   }
-
-    .section1__print__icon {
-      float: left;
-      margin-right: 3px;
-      margin-top: 2px;
-    }
-
-    .section1__print__text {
-      position: relative;
-      display: inline-block;
-    }
-
-  .section1__image {
-    margin-top: 27px;
-  }
-
-  .section1__p {
-    margin-top: 30px;
-  }
-
-  .section1__list {
-    margin: 30px 0px 30px 0px;
-    width: 899px;
-    height: 305px;
-  }
-
-    .section1__list__list1 {
-      float: left;
-      margin: 38px 0px 0px 80px;
-    }
-
-    .section1__list__list2 {
-      float: right;
-      margin: 38px 50px 0px 0px;
-    }
 
 .section2 {
   margin-top: 20px;
+  padding-top: 30px;
 }
 
   .section2__image {
@@ -755,6 +754,6 @@ footer {
   margin-top: 90px;
 }
 
-.footer__image {
-  margin-bottom: 20px;
-}
+  .footer__image {
+    margin-bottom: 20px;
+  }
